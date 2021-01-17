@@ -11,16 +11,18 @@ namespace Donguler
             string kurs3 = "Java";
             string kurs4 = "Python";
             string kurs5 = "C++";
-
+            string kurs6 = "C#";
+            
             Console.WriteLine(kurs1);
             Console.WriteLine(kurs2);
             Console.WriteLine(kurs3);
             Console.WriteLine(kurs4);
             Console.WriteLine(kurs5);
+            Console.WriteLine(kurs6);
 
             string[] kurslar = new string[] { kurs1,
                 "Programlamaya başlangıç için temel kurs",
-                "Java", "Python", "C#" };
+                "Java", "Python", "C++","C#" };
 
 
             for (int i = 0; i < kurslar.Length; i++)
@@ -28,7 +30,7 @@ namespace Donguler
                 Console.WriteLine(kurslar[i]);
             }
 
-            Console.WriteLine("For bitti");
+            Console.WriteLine("İçin kullanımı bitti");
 
             foreach (string kurs in kurslar)
             {
