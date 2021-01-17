@@ -35,7 +35,7 @@ namespace Donguler
                 Console.WriteLine(kurs);
             }
 
-            Console.WriteLine("sayfa sonu");
+            Console.WriteLine("Sayfa Sonu");
             Console.WriteLine("İyi günler dileriz.");
         }
     }
